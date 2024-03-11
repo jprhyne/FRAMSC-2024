@@ -38,7 +38,7 @@
         \frametitle{Brief Linear Algebra Review}
         Householder reflectors are a way to to represent a matrix as a product of rank $1$ updates of the form
         $$
-            \left(I - \tau_1 v_1v_1^\top\right)\cdots\left(I - \tau_k v_kv_k^\top\right) = VTV^\top
+            \left(I - \tau_1 v_1v_1^\top\right)\cdots\left(I - \tau_k v_kv_k^\top\right) = I - VTV^\top
         $$
         Routines that use this\footnote{Collected by listing some functions found on the caller graph of DLARFT found \textcolor{blue}{\href{https://netlib.org/lapack/explore-html//d7/d0d/group__larft_ga20e5a4f351b3ca7d30078547e55884f5_ga20e5a4f351b3ca7d30078547e55884f5_icgraph_org.svg}{here}}}
         \begin{itemize}
